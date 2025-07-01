@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dentist Website - Home</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+<!-- --------------------------------------- -->
+
+<body>
+
+<!-------------------- Header Section -------------------->
+<header class="header">
+  <nav>
+    <div class="logo">Your Smile Clinic</div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu">
+     
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact_us.php">Contact</a></li>
+      <li><a href="gallery.php">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="Login_and_Signup_form.html">login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-------------------- Hero Section -------------------->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Your Journey to a Perfect Smile Starts Here</h1>
+    <p>Providing high-quality dental care to keep your smile bright and healthy.</p>
+
+    <a href="Login_and_Signup_form.html">
+      <button class="button">
+        Get Started
+        <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+          <path
+                  clip-rule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                  fill-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </a>
+    <a href="contact_us.php">
+      <button class="button">
+        Contact Us
+        <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+          <path
+                  clip-rule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                  fill-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </a>
+
+
+
+  </div>
+  <div class="hero-image">
+    <img src="../images/im0.jpg" alt="Healthy Smile">
+  </div>
+</section>
+
+<!-------------------- Services Highlights -------------------->
+<section class="services-highlights">
+  <h2>Our Main Services</h2>
+  <div class="service-cards">
+    <div class="card">
+      <h3>Teeth Cleaning</h3>
+      <p>Keep your teeth clean and healthy with our professional cleaning service.</p>
+    </div>
+    <div class="card">
+      <h3>Whitening</h3>
+      <p>Brighten your smile with our advanced teeth whitening solutions.</p>
+    </div>
+    <div class="card">
+      <h3>Dental Implants</h3>
+      <p>Replace missing teeth with our high-quality dental implants.</p>
+    </div>
+  </div>
+</section>
+
+<!-------------------- Footer -------------------->
+<footer>
+  <p id="plp"> <i> plpss (. ❛ ᴗ ❛.) </i> </p>
+  <p>&copy; 2025 Your Smile Clinic. All Rights Reserved.</p>
+</footer>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="7e4b61fe-c5ae-4381-a5fb-fd9a1a56cdc4" name="dentist_website@localhost Mapping">
+      <data-sources db="ce3c21aa-d1ae-4dba-aa91-104b71455840" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+  </component>
+</project>

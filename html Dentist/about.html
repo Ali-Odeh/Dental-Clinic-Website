@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About the Dentist</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- --------------------------------------- -->
+
+<body>
+<!-- Header Section -->
+<header class="header">
+  <nav>
+    <div class="logo">Your Smile Clinic</div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.php">Gallery</a></li>
+      <li><a href="contact_us.php">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<!-- About Section -->
+<section class="about">
+  <h1>About Dr. Mona Odeh</h1>
+  <div class="about-content">
+    <div class="about-text">
+      <p>
+        Dr. Mona Odeh is a leading dentist with over 15 years of experience in cosmetic
+        and general dentistry. Her mission is to provide exceptional dental care while
+        ensuring patient comfort and satisfaction.
+      </p>
+      <p>
+        She graduated from Harvard School of Dental Medicine and has received multiple
+        awards for excellence in dentistry. Dr. Smith specializes in teeth whitening,
+        dental implants, and braces treatment.
+      </p>
+      <h3>Awards and Recognitions:</h3>
+      <ul>
+        <li>Best Dentist Award - 2022</li>
+        <li>Top Dental Clinic in Town - 2021</li>
+        <li>Excellence in Cosmetic Dentistry - 2020</li>
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="../images/des0.jpg" alt="Dr. Jane Smith">
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Your Smile Clinic. All Rights Reserved.</p>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  });
+</script>
+
+
+</body>
+</html>

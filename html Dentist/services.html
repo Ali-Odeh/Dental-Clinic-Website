@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Dental Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header Section -->
+<header class="header">
+  <nav>
+    <div class="logo">Your Smile Clinic</div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.php">Gallery</a></li>
+      <li><a href="contact_us.php">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Services Section -->
+<section class="services">
+  <h1>Our Dental Services</h1>
+  <div class="services-container">
+    <div class="service-item">
+      <img src="../images/Teeth_Cleaning.jpg" alt="Teeth Cleaning">
+      <h2>Teeth Cleaning</h2>
+      <p>Professional cleaning to remove plaque, tartar, and stains for a healthy smile.</p>
+    </div>
+    <div class="service-item">
+      <img src="../images/Teeth_Whitening.jpg" alt="Teeth Whitening">
+      <h2>Teeth Whitening</h2>
+      <p>Brighten your smile with our advanced and safe whitening treatments.</p>
+    </div>
+    <div class="service-item">
+      <img src="../images/Dental_Implants.jpg" alt="Dental Implants">
+      <h2>Dental Implants</h2>
+      <p>Replace missing teeth with natural-looking and durable dental implants.</p>
+    </div>
+    <div class="service-item">
+      <img src="../images/Gum_Treatment.jpg" alt="Gum Treatment">
+      <h2>Gum Treatment</h2>
+      <p>Effective solutions for gum diseases to maintain your oral health.</p>
+    </div>
+    <div class="service-item">
+      <img src="../images/Fillings_Braces1.avif" alt="Fillings and Braces">
+      <h2>Fillings & Braces</h2>
+      <p>Restore damaged teeth and align your smile with precision braces.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Your Smile Clinic. All Rights Reserved.</p>
+</footer>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
