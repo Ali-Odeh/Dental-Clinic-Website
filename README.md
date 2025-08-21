@@ -81,9 +81,4 @@ Uses a relational MySQL database to store:
 - XAMPP / LAMP / WAMP Stack
 - phpMyAdmin
 
-### Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/dental-clinic-management.git
-   cd dental-clinic-management
+ 
